@@ -21,7 +21,7 @@ const App = (): JSX.Element => {
         <div className={classes.root}>
             <Header />
             <Cart />
-            <Route exact path="/prodcuts" render={() => <ProductsPage />} />
+            <Route exact path="/products" render={() => <ProductsPage />} />
             <Route
                 exact
                 path="/products/add"
